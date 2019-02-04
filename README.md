@@ -577,7 +577,7 @@ Just an example JS plugin pattern I like to use as starting point for utility-es
 		
 	},
 	
-	_private_func_2 = function(argument) {
+	var _private_func_2 = function(argument) {
 		
 		console.log('_private_func_2', this, argument);
 		
